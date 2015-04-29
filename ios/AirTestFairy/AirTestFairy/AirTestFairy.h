@@ -11,6 +11,7 @@
 // C interface
 DEFINE_ANE_FUNCTION(AirTestFairyBegin);
 DEFINE_ANE_FUNCTION(AirTestFairyPushFeedbackController);
+DEFINE_ANE_FUNCTION(AirTestFairySendUserFeedback);
 DEFINE_ANE_FUNCTION(AirTestFairySetCorrelationId);
 DEFINE_ANE_FUNCTION(AirTestFairyPause);
 DEFINE_ANE_FUNCTION(AirTestFairyResume);

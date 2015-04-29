@@ -15,6 +15,10 @@ package com.TestFairy.AirTestFairy
 		{
 		}
 		
+		public static function sendUserFeedback(value:String):void
+		{
+		}
+		
 		public static function setCorrelationId(value:String):void
 		{
 		}

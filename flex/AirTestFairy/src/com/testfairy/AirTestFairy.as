@@ -19,6 +19,14 @@ package com.testfairy
 		{
 			call("pushFeedbackController");
 		}
+		
+		public static function sendUserFeedback(value:String):void
+		{
+			if (value)
+			{
+				call("sendUserFeedback", value);
+			}
+		}
 			
 		public static function setCorrelationId(value:String):void
 		{

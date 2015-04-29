@@ -11,23 +11,17 @@ package com.testfairy
 		}
 		
 		public static function begin():void
-		{
-			traceLog("TESTFAIRY LOG");
-			
+		{			
 			call("begin");
 		}
 		
 		public static function pushFeedbackController():void
 		{
-			traceLog("TESTFAIRY LOG");
-
 			call("pushFeedbackController");
 		}
 			
 		public static function setCorrelationId(value:String):void
 		{
-			traceLog("TESTFAIRY LOG");
-
 			if (value)
 			{
 				call("setCorrelationId", value);
@@ -36,36 +30,26 @@ package com.testfairy
 
 		public static function getSessionUrl():String
 		{
-			traceLog("TESTFAIRY LOG");
-
 			return call("getSessionUrl");
 		}
 		
 		public static function pause():void
 		{
-			traceLog("TESTFAIRY LOG");
-
 			call("pause");
 		}
 		
 		public static function resume():void
 		{
-			traceLog("TESTFAIRY LOG");
-
 			call("resume");
 		}
 		
 		public static function takeScreenshot():void
 		{
-			traceLog("TESTFAIRY LOG");
-
 			call("takeScreenshot");
 		}
 		
 		public static function log(value:String):void
 		{
-			traceLog("TESTFAIRY LOG");
-
 			if (value)
 			{
 				call("log", value);
@@ -87,7 +71,7 @@ package com.testfairy
 
 		private static function traceLog(msg:String):void
 		{
-			trace("Adam" + msg);
+			trace(msg);
 		}
 	}
 }

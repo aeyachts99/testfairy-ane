@@ -263,7 +263,7 @@
 				<string>2</string>
 			</array>
 	        <key>TestFairyAPIKey</key>
-       	    <string>1670f57c451061e32efd8edf13a942d6f2bb3339</string>
+       	    <string>API_KEY</string>
 			
 		]]></InfoAdditions>
         <requestedDisplayResolution>high</requestedDisplayResolution>

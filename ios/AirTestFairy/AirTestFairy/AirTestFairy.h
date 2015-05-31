@@ -18,6 +18,7 @@ DEFINE_ANE_FUNCTION(AirTestFairyResume);
 DEFINE_ANE_FUNCTION(AirTestFairyGetSessionUrl);
 DEFINE_ANE_FUNCTION(AirTestFairyTakeScreenshot);
 DEFINE_ANE_FUNCTION(AirTestFairyLog);
+DEFINE_ANE_FUNCTION(AirTestFairyGetVersion);
 
 // ANE Setup
 void AirTestFairyContextInitializer(void* extData, const uint8_t* ctxType, FREContext ctx, uint32_t* numFunctionsToTest, const FRENamedFunction** functionsToSet);

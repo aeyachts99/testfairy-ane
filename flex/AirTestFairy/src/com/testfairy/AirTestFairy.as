@@ -63,6 +63,11 @@ package com.testfairy
 				call("log", value);
 			}
 		}
+		
+		public static function getVersion():String
+		{
+			return call("getVersion");
+		}
 	
 		private static const EXTENSION_ID : String = "com.testfairy";
 		
